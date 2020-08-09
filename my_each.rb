@@ -4,7 +4,7 @@ def my_each(array) # put argument(s) here
     yield array[i] # yields each array index
     i += 1
   end
-  array
+  puts array
 end
 
 my_each([1, 2, 3, 4]) do |i|
