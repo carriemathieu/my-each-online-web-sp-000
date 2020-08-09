@@ -1,16 +1,16 @@
 def my_each(array) # put argument(s) here
   i = 0 
   while i < array.length
-  yield array[i] # yields each array index
-  # code here
+    yield array[i] # yields each array index
+    i += 1
+  end
+  array
 end
 
-def hello_t(array)
-  if block_given?
-    i = 0 # counter variable
-    while i < array.length 
-      yield array[i]
-      i += 1
+
+  
+
+     
     end
     array
   else
