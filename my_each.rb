@@ -7,6 +7,6 @@ def my_each(array) # put argument(s) here
   array
 end
 
-my_each([1, 2, 3, 4]) do |number|
+my_each([1, 2, 3, 4]) do |i|
   puts "#{number}"
 end
