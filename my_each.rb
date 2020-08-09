@@ -7,8 +7,7 @@ def my_each(array) # put argument(s) here
   array
 end
 
-my_each(["Tim", "Tom", "Jim"]) do |name|
-#  if name.start_with?("T")
- #   puts "Hi, #{name}"
+my_each([1, 2, 3, 4]) do |number|
+  puts "#{number}"
 #  end
 #end
