@@ -7,19 +7,7 @@ def my_each(array) # put argument(s) here
   array
 end
 
-
-  
-
-     
-    end
-    array
-  else
-    puts "Hey! No block was given!"
-  end
-end
-
-# call your method here!
-# hello_t(["Tim", "Tom", "Jim"]) do |name|
+my_each(["Tim", "Tom", "Jim"]) do |name|
 #  if name.start_with?("T")
  #   puts "Hi, #{name}"
 #  end
